@@ -1,0 +1,154 @@
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('snowflakes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn{
+    padding:15px 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 60px;
+}
+.btn-brand{
+    background-color: rgb(57, 349, 57);
+    color: #53065e;
+    border: 2px solid #ffff;
+    transition: all o.3s ease;
+}
+
+.btn-brand:hover{
+    border: 2px solid #292424;
+}
+  
+section {
+    padding: 100px 0;
+}
+
+#about h3{
+    font-size: 55px;
+    font-weight: 900;
+    color:rgb(57, 349, 57)
+}
+
+#services{
+    background-color: blanchedalmond;
+}
+.card-img-top{
+    width:20;
+}
+
+.card{
+    transition: all 0.4 ease;
+}
+
+.card:hover{
+    background-color: lightpink;
+}
+
+.card:hover .card-text, .card:hover .card-title{
+    color: #ffff;
+}
+
+#services .btn-brand:hover{
+    background-color: #ffff;
+    color: blueviolet;
+}
+
+.testimonial{
+    border: 2px solid darkred;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.testimonial a{
+    color: red;
+}
+
+#faq {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-button{
+    background-color: #f8f9fa;
+    border:none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body{
+    border-left: 3px solid rgb(57, 149 57);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(57, 149 57);
+    color: #fff;
+}
+
+.accordion-button:hover{
+    background-color: rgb(57, 149 57);
+    color: #c57070;
+}
+
+#cta {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('snowflakes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(68, 67, 67);
+    color: black;
+}
+
+#footer ul.list-unstyle li a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyle li:hover a{
+    color: rgb(8, 47, 8);
+}
+
+.btn-outline-light{
+    border-top: #572042;
+    color: #421694;
+    border-radius: 0;
+}
+
+@media screen and (max-width: 767px){
+    #about img{
+        height: 300px;
+        width: 300px;
+    }
+
+    #service .card{
+        margin-top: 20px;
+    }
+
+    section{
+        padding: 60px 20px;
+    }
+}
